@@ -1,0 +1,297 @@
+
+
+/*Base Styles*/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0;
+}
+
+
+body {
+  text-align: center;
+  background-color: #e9e5ec;
+  color: #635f5f;
+}
+
+ h2, h3, p {
+  font-family: "News Cycle", sans-serif;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+
+h2 {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+/*navigation*/
+
+
+
+/*layout*/
+
+#page-wrap {
+  width: 300px;
+}
+
+
+.above-name {
+  font-size: 18px;
+  align-content: center;
+  margin-top: 20px;
+  color: #491e1e;
+}
+
+.nav {
+  display: block;
+  width: 100%;
+  margin-top: 28px;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #491e1e;
+  text-align: center;
+  background-color: white;
+  margin-bottom: .2em;
+  width: 93%;
+  padding: 8px 0 8px;
+}
+
+.nav a:visited {
+  color: #d45440;
+}
+
+.nav a:hover {
+  color: #20b2aa;
+}
+
+.about {
+  width: 90%;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  margin: auto;
+}
+
+.about p {
+  font-family: "News Cycle", sans-serif;
+  width: auto;
+  text-align: center;
+}
+
+.profilePIC {
+  width: 70%;
+  border-radius: 2px;
+  padding-bottom: 16px;
+}
+
+.portfolio-main {
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-top: 44px;
+  padding-bottom: 20px;
+}
+
+.portfolio {
+  background-color: #fff;
+  border-radius: 2px;
+  width: auto;
+padding-bottom: 10%;
+}
+
+.portfolio-square {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.square-image {
+  width: 95%;
+  padding-bottom: 1em;
+}
+
+.chereka-picture {
+  width: 16%;
+  height: auto;
+  border-radius: 30%;
+  border: 2px solid #bc9494;
+}
+
+# contact {
+  width: 100%;
+  text-align: center;
+  margin-left: 20px;
+}
+ul li {
+  list-style: none;
+  text-align: center;
+}
+
+
+
+.bottomname {
+  color: #491e1e;
+  float: left;
+  padding-left: 10px;
+}
+
+.footer {
+  margin-top: 200px;
+  margin-right: 130px;
+  color: #bc9494;
+  height:10em;
+}
+
+
+.bottomnavbar {
+  display: none;
+}
+
+
+
+
+
+
+/*media queries*/
+
+@media (min-width: 768px) {
+
+
+
+
+
+.profilePIC {
+  width: 40%;
+  float: right;
+  margin-left: 2em;
+}
+
+.about {
+  margin-top: 1em;
+  width: 90%;
+}
+
+.about p {
+  font-size: 1em;
+  width: 50%;
+  text-align: left;
+}
+
+.portfolio-main {
+  margin: .5em 0 1em 0;
+  text-transform: uppercase;
+}
+
+.portfolio-square {
+  display: inline-block;
+  width: 49%;
+}
+
+.portfolio-square p {
+  font-size: 2vw;
+  margin-left: 2em;
+  margin-right: 2em;
+  width: 85%;
+}
+
+.bottomnavbar {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.bottomnavbar a {
+  float: right;
+  display: block;
+  color: #8aacb8;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.second-footer a:hover {
+  background-color: #005e7b;
+  color: #8aacb8;
+}
+.bottomnavbar a.active {
+  color: #55a8a3;
+}
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+}
+
+/*Media Queries*/
+
+@media (min-width: 1024px) {
+
+
+
+
+
+.above-name {
+  font-size: 32px;
+  color: #55a8a3;
+  margin-right: 25em;
+}
+.about p {
+  font-size: 20px;
+}
+
+.about {
+  margin-top: 200px;
+  padding-bottom: 50px;
+}
+
+.portfolio {
+margin-top: 15px;
+}
+
+  .portfolio-square {
+    display: inline-block;
+    width: 31%;
+  }
+
+  .portfolio-square p {
+    font-size: 1.8vw;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .bottomnavbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .bottomnavbar a {
+    float: right;
+    display: block;
+    color: #8aacb8;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+}
