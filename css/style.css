@@ -144,6 +144,11 @@ ul li {
 }
 
 
+A.topic:link,
+A.topic:visited {
+  color:  #d45440;
+  text-decoration: none;
+}
 
 .bottomname {
   color: #491e1e;
@@ -151,9 +156,13 @@ ul li {
   padding-left: 10px;
 }
 
+.top {
+  position: absolute;
+  right: 0px;
+}
+
 .footer {
   margin-top: 200px;
-  margin-right: 130px;
   color: #bc9494;
   height:10em;
 }
