@@ -223,11 +223,15 @@ A.topic:visited {
 
 .about {
   margin-top: 1em;
+  width: 90%;
 }
 
 .about p {
   font-size: 1em;
   text-align: center;
+}
+.portfolio-main {
+  margin: 1em 0 1em;
 }
 
 .portfolio-square {
@@ -236,10 +240,9 @@ A.topic:visited {
 }
 
 .portfolio-square p {
-  font-size: 2vw;
-  margin-left: 2em;
-  margin-right: 2em;
-  width: 85%;
+  font-size: 18px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .bottomnavbar {
