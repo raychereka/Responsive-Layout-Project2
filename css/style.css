@@ -27,6 +27,7 @@ p {
   font-family: "News Cycle", sans-serif;
   margin: 2em 50px 3em 50px;
 }
+
 h2 {
   margin-top: 20px;
   color: #bc9494;
@@ -34,9 +35,11 @@ h2 {
 }
 
 hr {
-  margin-top: 100px;
-  margin-bottom: 20px;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
+
 
 
 
@@ -140,9 +143,7 @@ hr {
   border-radius: 30%;
   border: 2px solid #bc9494;
 }
-.personal p {
-color: blue;
-}
+
 .contact {
   width: 100%;
   text-align: center;
@@ -152,7 +153,6 @@ color: blue;
 
 A.topic:link {
   float: right;
-  padding: 0 4px 4px 0px;
 }
 
 A.topic:link,
@@ -171,11 +171,14 @@ A.topic:visited {
 
 
 .footer {
-  margin-top: 2em;
-  margin-bottom: auto;
   color: #bc9494;
+
 }
 
+.main-footer {
+  margin-top: 15px;
+
+}
 
 .bottomnavbar {
   display: none;
@@ -259,7 +262,9 @@ text-align: left;
   text-align: center;
 }
 
-
+hr {
+  margin-bottom: 30px;
+}
 
 .bottomnavbar {
   display: inline-block;
