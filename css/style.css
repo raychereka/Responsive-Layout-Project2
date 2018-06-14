@@ -45,12 +45,6 @@ hr {
 
 
 
-
-
-/*navigation*/
-
-
-
 /*layout*/
 
 # page-wrap {
@@ -147,10 +141,12 @@ hr {
   border-radius: 30%;
   border: 2px solid #bc9494;
 }
+
 #personal {
   padding-right: 8%;
   padding-left: 8%;
 }
+
 #contact {
   font-size: 17px;
   padding-right: 3%;
@@ -164,9 +160,6 @@ border-radius: 3px;
 padding-bottom: 16px;
 }
 
-
-
-
 A.topic:link,
 A.topic:visited {
   color:  #d45440;
@@ -175,7 +168,6 @@ A.topic:visited {
   padding-right: 8px;
   text-decoration: none;
   text-transform: uppercase;
-
 }
 
 .bottomname {
@@ -239,7 +231,7 @@ A.topic:visited {
   #personal {
     padding-right: 8%;
     padding-left: 8%;
-}
+  }
 
   #contact {
     font-size: 18px;
@@ -272,6 +264,7 @@ h3 {
   font-size: 22px;
   color: #616161;
 }
+
 .portfolio-square {
   display: inline-block;
   width: 49%;
@@ -338,15 +331,13 @@ A.topic:visited {
 @media (min-width: 1024px) {
 
 
-
-
-
   .above-name {
     float: left;
     padding-left: 30px;
     margin-top: 35px;
     color: #491e1e;
   }
+
 .nav {
   margin-top: 40px;
 }
@@ -355,23 +346,20 @@ A.topic:visited {
   display: inline-block;
   float: right;
   margin-top: 5px;
+  }
 
-}
   .nav ul {
     float: right;
     margin-right: 40px;
-
   }
-.about {
 
-}
 .about p {
 
   font-size: 1.5em;
   padding-top: 100px;
   padding-right: 20px;
   padding-left: 40px;
-}
+  }
 
 .profilePIC {
   float: right;
@@ -389,7 +377,7 @@ A.topic:visited {
   }
 
   .portfolio-square p {
-    
+
     padding-right: 10px;
     padding-left: 10px;
   }
@@ -397,6 +385,7 @@ A.topic:visited {
   .bottomname {
     padding-left: 15px;
   }
+
   .bottomnavbar {
     display: inline-block;
     float: right;
@@ -409,7 +398,6 @@ A.topic:visited {
     text-decoration: none;
     color: #7faea4;
     padding-left: 15PX;
-
   }
 
   .bottomnavbar a:hover {
