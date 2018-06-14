@@ -35,11 +35,7 @@ h2 {
   text-transform: uppercase;
 }
 
-hr {
-  width: 100%;
-  margin-top: 60px;
-  margin-bottom: 30px;
-}
+
 
 
 
@@ -151,6 +147,7 @@ hr {
   font-size: 17px;
   padding-right: 3%;
   padding-left: 3%;
+  padding-bottom: 50px;
   text-align: center;
 }
 
@@ -182,6 +179,7 @@ A.topic:visited {
 
 .footer {
   color: color: #491e1e;
+
 }
 
 
